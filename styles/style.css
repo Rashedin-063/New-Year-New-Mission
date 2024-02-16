@@ -1,8 +1,6 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap')
-
-/* shared styles */
-*{
+  /* shared styles */ * {
   margin: 0px;
   padding: 0px;
 }
@@ -10,41 +8,153 @@
 body {
   min-width: 1320px;
   padding: 0px 140px;
+  margin: 50px 220px;
 }
 
 /* header-section styles */
 .header-container {
   background-image: url('../assets/Banner\ Image.png');
   height: 600px;
-  /* width: 82%; */
-  margin: 0px 220px;
+
   background-repeat: no-repeat;
-  
-  margin-top: 50px;
+
   /* filter: brightness(40%); */
   border-radius: 16px;
-  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../assets/Banner Image.png');
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('../assets/Banner Image.png');
   background-size: contain;
-
-
-  
 }
 
-
-
-.header-intro{
-  color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-weight: 400;
-padding-top: 170px;
-
+.header-intro {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 170px;
 }
-.header-title{
+.header-title {
   color: white;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
 }
+
+.holiday-section-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+.holiday-section-description {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.holiday-section-category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.holiday-section-image {
+  margin: 50px 280px 150px;
+}
+
+.welcome-party-section {
+  background-image: url('../assets/Vectorrr.png');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin: 100px 220px; */
+  /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('../assets/Vectorrr.png');
+  border-radius: 16px;
+}
+
+.welcome-party-text {
+  padding-left: 120px;
+}
+.welcome-section-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  padding-top: 120px;
+  margin-bottom: 0px;
+}
+.welcome-section-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.welcome-section-button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding: 5px 10px;
+}
+.portfolio-greetings {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 120px;
+  margin-bottom: 0px;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 60px;
+}
+
+.portfolio-images img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 420px;
+  cursor: pointer;
+}
+
+.portfolio-images img:hover{
+  border: 3px solid black;
+  border-radius: 16px;
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  filter: grayscale(50%);
+  transition: all 0.3s ease;
+}
+
+

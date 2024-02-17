@@ -6,19 +6,16 @@
 }
 
 body {
-  min-width: 1320px;
-  padding: 0px 140px;
-  margin: 50px 220px;
+  /* max-width: 1320px; */
+  /* padding: 0px 140px; */
+  /* margin: 50px 140px; */
 }
 
 /* header-section styles */
 .header-container {
-  background-image: url('../assets/Banner\ Image.png');
-  height: 600px;
-
+  height: 580px;
+  margin: 50px 140px;
   background-repeat: no-repeat;
-
-  /* filter: brightness(40%); */
   border-radius: 16px;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url('../assets/Banner Image.png');
@@ -42,7 +39,9 @@ body {
 }
 
 /* main section styles */
-
+.main {
+  margin: 50px 140px;
+}
 .holiday-section-title {
   color: #f00;
   text-align: center;
@@ -70,12 +69,11 @@ body {
 }
 
 .holiday-section-image {
-  margin: 50px 280px 150px;
+  margin: 50px 200px 150px;
 }
 
 .welcome-party-section {
-  background-image: url('../assets/Vectorrr.png');
-  height: 600px;
+  height: 550px;
   background-repeat: no-repeat;
   background-size: contain;
   /* margin: 100px 220px; */
@@ -143,9 +141,13 @@ body {
   margin-bottom: 60px;
 }
 
+.portfolio-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
 .portfolio-images img {
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   width: 400px;
   height: 420px;
   cursor: pointer;
@@ -160,6 +162,7 @@ body {
   filter: grayscale(50%);
   transition: all 0.3s ease;
 }
+/* subscribe section styles */
 .subscribe-section {
   height: 616px;
   margin-top: 120px;
@@ -206,30 +209,40 @@ body {
 }
 
 /* footer section style */
-.footer{
-  width: 65vw;
-height: 600px;
-background: #070211;
-padding: 120px 240px;
-margin: 120px 0px 0px -240px;
 
+.footer-container {
+  width: 77vw;
+  height: 400px;
+  background: #070211;
+  padding: 120px 150px;
 }
-
-.footer-container{
+.footer-1{
   display: flex;
   justify-content: space-between;
 }
-.footer-text{
-  color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
+.footer-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
 }
-.phone-website-container{
+.phone-website-container {
   margin-right: 160px;
 }
-.phone-website{
+.phone-website {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+.footer-icon{
+text-align: center;
+margin-top:90px;
+}
+.footer-icon img{
+  margin-right: 10px;
+  width: 64px;
+height: 64px;
+}
+.footer-3{
+  margin-top: 90px;
 }

@@ -5,12 +5,6 @@
   padding: 0px;
 }
 
-body {
-  /* max-width: 1320px; */
-  /* padding: 0px 140px; */
-  /* margin: 50px 140px; */
-}
-
 /* header-section styles */
 .header-container {
   height: 580px;
@@ -21,7 +15,6 @@ body {
     url('../assets/Banner Image.png');
   background-size: contain;
 }
-
 .header-intro {
   color: #fff;
   text-align: center;
@@ -37,11 +30,11 @@ body {
   font-size: 72px;
   font-weight: 900;
 }
-
 /* main section styles */
 .main {
   margin: 50px 140px;
 }
+/* holiday section styles */
 .holiday-section-title {
   color: #f00;
   text-align: center;
@@ -67,11 +60,10 @@ body {
   font-weight: 700;
   margin-top: 20px;
 }
-
 .holiday-section-image {
   margin: 50px 200px 150px;
 }
-
+/* welcome party section style */
 .welcome-party-section {
   height: 550px;
   background-repeat: no-repeat;
@@ -82,7 +74,6 @@ body {
     url('../assets/Vectorrr.png');
   border-radius: 16px;
 }
-
 .welcome-party-text {
   padding-left: 120px;
 }
@@ -101,7 +92,6 @@ body {
   font-weight: 400;
   padding-top: 15px;
 }
-
 .welcome-section-button {
   color: #fff;
   text-align: center;
@@ -115,6 +105,41 @@ body {
   margin-left: 30px;
   padding: 5px 10px;
 }
+/* coming soon styles */
+.coming-soon-section {
+  display: flex;
+  gap:100px;
+  margin-top: 120px;
+}
+.coming-soon-greetings {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.coming-soon-image{
+ border: 15px solid #F00;
+ border-radius: 50%;
+ /* border-radius: 463px; */
+padding: 35px;
+}
+.coming-soon-image img{
+  width: 360px;
+height: 360px;
+text-align: center;
+}
+.new-year-2024{
+  padding-left: 50px;
+}
+.tw4{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* portfolio section styles */
 .portfolio-greetings {
   color: #f00;
   font-family: Inter;
@@ -124,7 +149,7 @@ body {
   margin-bottom: 0px;
 }
 .portfolio-title,
-.subscribe-section-title {
+.subscribe-section-title,.coming-soon-title {
   color: #070211;
   font-family: Merriweather;
   font-size: 52px;
@@ -132,7 +157,7 @@ body {
   margin-top: 16px;
 }
 .portfolio-description,
-.subscribe-section-description {
+.subscribe-section-description, .coming-soon-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -169,12 +194,10 @@ body {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
 }
-
 .subscribe-section-content {
   text-align: center;
   padding-top: 80px;
 }
-
 .form {
   display: flex;
   align-items: center;
@@ -193,7 +216,6 @@ body {
 
   font-weight: 400;
 }
-
 #Subscribe {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
@@ -207,16 +229,14 @@ body {
   border: none;
   margin-left: -200px;
 }
-
 /* footer section style */
-
 .footer-container {
   width: 77vw;
   height: 400px;
   background: #070211;
   padding: 120px 150px;
 }
-.footer-1{
+.footer-1 {
   display: flex;
   justify-content: space-between;
 }
@@ -234,15 +254,15 @@ body {
   align-items: center;
   gap: 15px;
 }
-.footer-icon{
-text-align: center;
-margin-top:90px;
+.footer-icon {
+  text-align: center;
+  margin-top: 90px;
 }
-.footer-icon img{
+.footer-icon img {
   margin-right: 10px;
   width: 64px;
-height: 64px;
+  height: 64px;
 }
-.footer-3{
+.footer-3 {
   margin-top: 90px;
 }

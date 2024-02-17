@@ -4,10 +4,29 @@
   margin: 0px;
   padding: 0px;
 }
-
+.portfolio-title,
+.subscribe-section-title,
+.coming-soon-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+.portfolio-description,
+.subscribe-section-description,
+.coming-soon-description,
+.holiday-sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 60px;
+}
 /* header-section styles */
 .header-container {
-  height: 580px;
+  height: 560px;
   margin: 50px 140px;
   background-repeat: no-repeat;
   border-radius: 16px;
@@ -69,30 +88,31 @@
   background-repeat: no-repeat;
   background-size: contain;
   /* margin: 100px 220px; */
-  /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url('../assets/Vectorrr.png');
   border-radius: 16px;
+  display: flex;
 }
 .welcome-party-text {
-  padding-left: 120px;
+  padding-left: 90px;
 }
-.welcome-section-title {
+
+.welcome-party-title {
   color: #fff;
   font-family: Merriweather;
   font-size: 64px;
   font-weight: 900;
-  padding-top: 120px;
+  padding-top: 80px;
   margin-bottom: 0px;
 }
-.welcome-section-description {
+.welcome-party-description {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
   padding-top: 15px;
 }
-.welcome-section-button {
+.welcome-party-button {
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -105,39 +125,138 @@
   margin-left: 30px;
   padding: 5px 10px;
 }
+.welcome-party-image {
+  width: 280px;
+  height: 360px;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+/* Join now styles */
+.join-now-section {
+  width: 1320px;
+  height: 482px;
+  margin-top: 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding-top: 100px;
+}
+.join-now-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.red-text {
+  color: #f00;
+}
+.join-now-button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.join-now-button:hover {
+  background-color: rgba(132, 16, 8, 0.845);
+  border: 2px solid rgb(173, 11, 11);
+}
 /* coming soon styles */
 .coming-soon-section {
   display: flex;
-  gap:100px;
-  margin-top: 120px;
+  gap: 100px;
+  margin-top: 100px;
 }
-.coming-soon-greetings {
+.coming-soon-greetings,
+.holiday-sale-greetings {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
 }
-.coming-soon-image{
- border: 15px solid #F00;
- border-radius: 50%;
- /* border-radius: 463px; */
-padding: 35px;
+.coming-soon-image {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  /* border-radius: 463px; */
+  padding: 35px;
 }
-.coming-soon-image img{
+.coming-soon-image img {
   width: 360px;
-height: 360px;
-text-align: center;
+  height: 360px;
+  text-align: center;
 }
-.new-year-2024{
+.new-year-2024 {
   padding-left: 50px;
 }
-.tw4{
-  color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.tw4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* holiday sale styles */
+.holiday-sale-section {
+  /* height: 1730px; */
+  margin-top: 100px;
+}
+.holiday-sale-text {
+  text-align: center;
+}
+.holiday-sale-greetings {
+  color: #070211;
+  margin-bottom: 10px;
+}
+.holiday-sale-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.holiday-sale-image-1{
+  display: flex;
+  padding-top:60px;
+  justify-content: space-between;
+}
+#box{
+width: 40%;
+  height: 40%;
+  padding-left: 100px;
+  padding-top: 210px;
+  z-index: 4;
+}
+#circle{
+  width: 280px;
+  height: 280px;
+margin-right: -200px;
+z-index: 3;
+margin-top: 120px;
+}
+#girl{
+  width: 40%;
+  height: 100%;
+  z-index: 1;
+}
+#rectangle{
+  width: 1225px;
+height: 200px;
+margin-top: -123px;
+z-index: 0;
 }
 /* portfolio section styles */
 .portfolio-greetings {
@@ -148,24 +267,6 @@ line-height: normal;
   margin-top: 120px;
   margin-bottom: 0px;
 }
-.portfolio-title,
-.subscribe-section-title,.coming-soon-title {
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 52px;
-  font-weight: 900;
-  margin-top: 16px;
-}
-.portfolio-description,
-.subscribe-section-description, .coming-soon-description {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 18px;
-  margin-bottom: 60px;
-}
-
 .portfolio-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -177,7 +278,6 @@ line-height: normal;
   height: 420px;
   cursor: pointer;
 }
-
 .portfolio-images img:hover {
   border: 3px solid black;
   border-radius: 16px;
@@ -187,6 +287,7 @@ line-height: normal;
   filter: grayscale(50%);
   transition: all 0.3s ease;
 }
+
 /* subscribe section styles */
 .subscribe-section {
   height: 616px;
@@ -231,7 +332,7 @@ line-height: normal;
 }
 /* footer section style */
 .footer-container {
-  width: 77vw;
+  width: 78vw;
   height: 400px;
   background: #070211;
   padding: 120px 150px;
